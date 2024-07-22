@@ -1,0 +1,2 @@
+[2022-1-14 18:49:41] layer "WC Marketplace, Module #534, Sector V Salt Lake City, Kolkata, ": Expected end of input but "," found.
+[2022-1-14 18:49:41] layer "contact@wc-marketplace.com": Unsupported extension: com

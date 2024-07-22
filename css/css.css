@@ -1,0 +1,1522 @@
+/*
+Theme Name: Onum Child 02
+Theme URI: http://wpdemo2.oceanthemes.net/onum
+Template: onum
+Author: OceanThemes
+Author URI: http://oceanthemes.net/
+Description: Onum is a business WordPress theme designed specifically for SEO &amp; Digital Marketing companies and those that offer SEO services. The theme comes pre-packed with a drag and drop page builder (Elementor) to ensure you can easily design your website just how you like it.
+Tags: one-column,two-columns,left-sidebar,right-sidebar,full-width-template,post-formats,theme-options,threaded-comments,translation-ready
+Version: 1.2.8.3.1677595390
+Updated: 2023-02-28 14:43:10
+*/
+
+/*overall dynamic css*/
+body {
+    background: #eeefff;
+    color: #45464c !important; /*to avoid onum color of body*/
+}
+
+.text-dark, h1, h2, h3 {
+    color: #171719 ;
+}
+
+.octf-btn-primary.octf-btn {
+    background: #ff761a;
+    box-shadow: 12px 12px 20px 0px hsl(24deg 100% 55% / 30%);
+}
+.octf-btn-secondary {
+    background: #1aadff;
+}
+.octf-btn-purple.octf-btn {
+    background-color: #1aadff !important;/*to avoid onum css*/
+    box-shadow: 12px 12px 20px 0 hsl(201deg 100% 55% / 30%) !important;/*to avoid onum css*/
+    -webkit-box-shadow: 12px 12px 20px 0 hsl(201deg 100% 55% / 30%) !important;/*to avoid onum css*/
+    -moz-box-shadow: 12px 12px 20px 0 hsl(201deg 100% 55% / 30%) !important;/*to avoid onum css*/
+}
+
+.octf-btn-secondary.octf-btn-icon i {
+    display: none;
+}
+
+.octf-btn-secondary.octf-btn-icon {
+    padding: 16px 28px;
+}
+
+.octf-btn:hover {
+    box-shadow: none !important;/*to avoid onum css*/
+}
+
+.octf-btn.octf-btn-white {
+    color: #171719 !important;/*to avoid onum css*/
+    box-shadow: none !important;/*to avoid onum css*/
+}
+
+.start-dual-button {
+    border-radius: 37px !important;/*to avoid onum css for a button */
+    line-height: 0.9 !important;/*to avoid onum css for a button */
+    background: #fff !important;/*to avoid onum css for a button */
+    color: #171719 !important;/*to avoid onum css for a button */
+    padding: 12px 28px !important;/*to avoid onum css for a button */
+}
+
+.breadcrumbs li a,
+.breadcrumbs li:before {
+    color: #ffffff !important;/*to avoid onum css*/
+}
+
+.breadcrumbs li a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.breadcrumbs li {
+    color: #e7edf6;
+}
+.ot_portfolio-template-default.single .breadcrumbs {
+    visibility: hidden;
+}
+#back-to-top {
+    color: #1a30ff !important;/*to avoid onum css for a scroll to tp */
+	font-weight:900;
+}
+.author-widget_wrapper, .blog-post .author-bio {
+    display: none;
+}
+.is-mega-menu .sub-menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(31rem, 1fr));
+    gap: 0.75rem;
+    min-width: 81rem;
+    padding: 2rem !important;
+    background: #fff !important;
+}
+.is-mega-menu ul li.menu-item a:hover{
+	padding-left:2rem;
+	background:#fff0e6;
+	color:#171719 !important;
+	border-radius:0.8rem;
+}
+.is-mega-menu ul li.menu-item a {
+	padding:2rem;
+    display: flex;
+    gap: 1.5rem;
+}
+.is-mega-menu ul li.menu-item a:before{
+	display:none;
+}
+.is-mega-menu ul li.menu-item a i{
+	padding-top: 3px;
+    font-size: 24px;
+	color: #ff761a;
+}
+.mega-content-wrap .mega-heading{
+	font-weight:500;
+}
+.mega-content-wrap p {
+    margin: 0 0 0.8rem;
+    line-height: 1.2;
+    white-space: break-spaces;
+	font-weight:400;
+}
+/*homepage start*/
+div .custom .tp-bullet:after {
+    background: #FB834C;
+}
+.all-content{
+    display: none;
+}
+#first-content, #tab-content_1{
+    display: block;
+}
+.tab-content-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.tab-img-wrap {
+    width: 45%;
+}
+
+.tab-text-wrap {
+    width: 48%;
+}
+
+.ot-tabs .tab-content ul.has-icon li i {
+    color: #FF954D;
+}
+
+.ot-tabs .tab-link.current,
+.ot-tabs .tab-link:hover {
+    background: #1aadff;
+    color: #fff !important;/*to avoid onum css for a tab */
+    box-shadow: 8px 8px 18px 0px #6d00d638;
+    -webkit-box-shadow: 8px 8px 18px 0px #6d00d638;
+    -moz-box-shadow: 8px 8px 18px 0px #6d00d638;
+}
+
+div .custom.tp-bullets .tp-bullet {
+    color: #a2a6ac;
+}
+
+/*side nav */
+section.tab-active .elementor-icon,
+section.tab-active .elementor-heading-title {
+    color: #fff !important;/*to avoid onum css for a tab */
+}
+
+section.tab-active .elementor-element-populated {
+    background: #1a30ff !important;/*to avoid onum css for a tab */
+    box-shadow: 6px 6px 18px 0px hsl(234deg 100% 55% / 30%);
+}
+
+section.tab-item:hover {
+    cursor: pointer;
+}
+blockquote p{font-size: 18px;}
+blockquote:before {
+    background: #ff954d;
+}
+
+.style-home5 .service-box .icon-main span {
+    text-shadow: 8px 8px 18px rgb(77 94 255 / 30%);
+    -moz-text-shadow: 8px 8px 18px rgb(77 94 255 / 30%);
+}
+.elementor-container.elementor-column-gap-default:has(.moodle-plugin-item) {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+}
+.moodle-plugin-item{width:100% !important;/*make it responsive*/}
+/*homepage end*/
+/*service page start*/
+.ot-pricing-table .inner-table img {
+    margin-bottom: 35px;
+    height: 72px;
+    width: 72px;
+}
+ul.tab-item-wrap {
+    width: 30%;
+}
+li.tab-item {
+    list-style: none;
+	height: 65px;
+}
+.tab-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.contentClass-wrap {
+    width: 65%;
+}
+.tab-content {
+    display: flex;
+}
+.paragraph-wrap {
+    width: 50%;
+}
+.image_container {
+    flex: auto;
+}
+img.tab_image {
+    width: 100%;
+}
+
+/* Button to open the content */
+button.linkClass {
+	display: block;
+    color: #171719;
+    padding: 10px 15px;
+    width: 100%;
+    text-align: left;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background: #fff;
+}
+
+button.linkClass.active {
+		background: #1a30ff;
+		color:#fff;
+	}
+
+			/* Content for tabs*/
+			.contentClass {
+				display: none;
+				padding: 0px 15px;
+				border-style: none;
+				height: 300px;
+			}
+/*service page end*/
+/*shop page*/
+.shop-page-banner {
+    display: grid;
+    place-items: center;
+    background-color: #fff;
+    padding: 6rem 0 8rem;
+    background-image: url(https://dualstg.wpengine.com/wp-content/uploads/2023/03/inner-back.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.shop-page-banner h2 {
+    margin: 0;
+    color: #fff;
+}
+
+.content-product-wrapper {
+    background: #fff;
+    padding: 6rem 0 0;
+}
+
+.woocommerce .woocommerce-result-count,
+.woocommerce .woocommerce-ordering {
+    display: none; /*this is for shop page filter omit*/
+}
+.related.products {
+    padding-top: 96px !important; /*to avoid onum css for a product gap */;
+}
+.woocommerce ul.products:before,
+.woocommerce ul.products:after {
+    display: none;
+}
+
+h2.woocommerce-loop-product__title {
+    font-size: 2rem !important;
+    color: #171719 !important;
+}
+.woocommerce-message {
+    border-top-color: #4dbfff !important;/*to avoid onum css */
+}
+.woocommerce-message:before {
+    color: #4dbfff !important;/*to avoid onum css */
+}
+.woocommerce-error, .woocommerce-info, .woocommerce-message {
+    background-color: #eff6ff !important;/*to avoid onum css */
+}
+.woocommerce div.product div.images .woocommerce-product-gallery__trigger{
+	background: #1aadff !important;/*to avoid onum css for a button */
+    box-shadow: 12px 12px 20px 0px hsl(201deg 100% 55% / 30%) !important;/*to avoid onum css for a button */
+}
+a.product_type_simple.add_to_cart_button {
+    background: #1a30ff !important;/*to avoid onum css for a button */
+    box-shadow: 12px 12px 20px 0px hsl(234deg 100% 55% / 30%) !important;/*to avoid onum css for a button */
+    -webkit-box-shadow: 12px 12px 20px 0px hsl(234deg 100% 55% / 30%);
+    -moz-box-shadow: 12px 12px 20px 0px hsl(234deg 100% 55% / 30%);
+}
+
+button.single_add_to_cart_button.button.alt.wp-element-button:hover {
+    box-shadow: none;
+    background: #1a30ff;
+}
+
+ul.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(32rem, 1fr));
+    gap: 2rem 4rem;
+    width: 100%;
+}
+
+.woocommerce ul.products.columns-3 li.product,
+.woocommerce-page ul.products.columns-3 li.product {
+    width: 100%;
+}
+
+.product_header_sec {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 10px 22px;
+}
+
+.dualcube_product_details p {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+}
+
+.dualcube_product_details ul li {
+    margin: 0 0rem 0 2rem;
+    position: relative;
+    font-weight: 500;
+    font-family: 'Red Hat Display';
+}
+
+.dualcube_product_details ul li:after {
+    position: absolute;
+    left: -1.75rem;
+    top: 1.2rem;
+    content: "";
+    background: #45464c;
+    color: #fff;
+    height: 0.75rem;
+    width: 0.75rem;
+    text-align: center;
+    border-radius: 100%;
+    font-weight: 600;
+}
+
+.dualcube-products-buttons {
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem 1rem 0;
+}
+
+.woocommerce ul.products li.product .button {
+    background: #1a30ff;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 4rem;
+    line-height: 1.5;
+    padding: 1.25rem 2.5rem;
+    box-shadow: 12px 12px 20px 0px hsl(234deg 100% 55% / 30%);
+    -webkit-box-shadow: 12px 12px 20px 0px hsl(234deg 100% 55% / 30%);
+    -moz-box-shadow: 12px 12px 20px 0px hsl(234deg 100% 55% / 30%);
+}
+
+.woocommerce ul.products li.product .button:hover,
+.woocommerce ul.products li.product .button.button.dualcube-custom-button-view-product:hover {
+    box-shadow: none;
+}
+
+.woocommerce ul.products li.product .button.button.dualcube-custom-button-view-product {
+    background: #1aadff;
+    box-shadow: 12px 12px 20px 0px hsl(201deg 100% 55% / 30%);
+    -webkit-box-shadow: 12px 12px 20px 0px hsl(201deg 100% 55% / 30%);
+    -moz-box-shadow: 12px 12px 20px 0px hsl(201deg 100% 55% / 30%);
+}
+
+.archive.post-type-archive footer .elementor-icon i,
+.archive.post-type-archive footer .elementor-icon svg,
+.archive footer .elementor-icon i,
+.archive footer .elementor-icon svg,
+.single footer .elementor-icon svg,
+.single footer .elementor-icon i, 
+.product-template-default.single footer .elementor-icon svg,
+.product-template-default.single footer .elementor-icon i {
+    height: 1rem !important;/*to avoid onum css for a icon */
+    display: inline-table !important;/*to avoid onum css for a icon */
+}
+
+ul.products.columns-4 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(32rem, 1fr));
+    gap: 2rem 4rem;
+    width: 100%;
+}
+
+.woocommerce ul.products li.product,
+.woocommerce-page ul.products li.product {
+    width: 100% !important;/*to avoid onum css for a woocoomerce page */
+    text-align: left !important;/*to avoid onum css for a woocoomerce page */
+}
+
+span.price bdi {
+    color: #ff761a;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+/*shop page end*/
+/*shop page details*/
+.single-product h1 {
+    color: #171719;
+}
+.page-title {
+    color: #fff;
+}
+.entry-content {
+    background: #fff;
+}
+.single-product .woocommerce-product-gallery__image, .single-product div.product div.images .flex-control-thumbs li img{
+	background:#fff !important;
+}
+.page-header {
+    background-image: url(https://dualstg.wpengine.com/wp-content/uploads/2023/03/inner-back.png) !important;/*to avoid onum css for a woocoomerce page */
+	background-color: #fff;
+	background-size: 100% 100%;
+}
+.product_price_sec {
+    font-size: 24px;
+    color: #ff761a;
+	font-weight: 700;
+}
+.woocommerce-product-details__short-description li {
+    font-weight: 500;
+}
+.woocommerce .quantity .qty {
+    color: #171719 !important;/*to avoid onum css for a woocoomerce page */
+    border: 0;
+    background-color: #e6e8ff !important;/*to avoid onum css for a woocoomerce page */
+}
+
+.woocommerce .quantity input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.product_meta>span {
+    color: #8a8b99 !important;/*to avoid onum css for a woocoomerce page */
+}
+.button-area {
+    display: flex;
+    justify-content: center;
+    gap: 1.6rem;
+    padding: 1.2rem 0 4rem;
+}
+.right_side_box table, .right_side_box td {
+    border: 0;
+	padding:5px 0px 8px 20px;
+}
+.summary.entry-summary {
+    padding: 1rem 4rem 2rem;
+    border-radius: 0.4rem;
+    position: relative;
+	box-shadow: 0rem 1rem 2.5rem rgb(63 20 115 / 5%);
+}
+
+.regular_price {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+}
+.woocommerce-product-details__short-description {
+    margin-top: -1.6rem;
+}
+.product-meta-data{
+	font-weight:700;
+	color:#171719;
+}
+.product-dynamic-heading {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Red Hat Display';
+}
+.product-dynamic-description {
+    text-align: center;
+    color: #45464c;
+}
+.product-dynamic-icon .elementor-icon {
+    box-shadow: 12px 12px 30px 0px rgb(47 48 52 / 8%);
+}
+.about-dynamic-title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Red Hat Display';
+    color: #171719;
+}
+.variation_box_wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+span.onsale {
+    padding: 5px 15px !important;
+}
+.variation_box.ot-pricing-table {
+   	width: 29%;
+	background: #fff;
+	margin:0 15px;
+}
+.variation_description ul {
+    list-style: none;
+    border-top: 0.06rem solid #cfd1e6;
+    margin: 0 0 50px;
+    padding: 19px 0 0;
+}
+.variation_name.dynamic-strip {
+    position: absolute !important;
+    top: 30px;
+    font-size: 13px;
+    left: 0;
+    padding: 5px 15px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 0 57px 57px 0;
+    background: #1aadff;
+    box-shadow: 8px 8px 30px 0px hsl(201deg 100% 55% / 25%);
+    -webkit-box-shadow: 8px 8px 30px 0px hsl(201deg 100% 55% / 25%);
+    -moz-box-shadow: 8px 8px 30px 0px hsl(201deg 100% 55% / 25%);
+}
+.variation_description ul li {
+    margin-bottom: 10px;
+}
+.variation_name.title-table.dynamic-strip {
+    background: #ff954d;
+    box-shadow: 8px 8px 30px 0px rgb(254 76 27 / 25%);
+    -webkit-box-shadow: 8px 8px 30px 0px rgb(254 76 27 / 25%);
+    -moz-box-shadow: 8px 8px 30px 0px rgb(254 76 27 / 25%);
+}
+.dynamic-price-details bdi{
+	color: #171719;
+    font-weight: 700;
+	font-size:36px;
+}
+.dynamic-price-details bdi span.woocommerce-Price-currencySymbol {
+    font-size: 25px;
+    margin-right: 5px;
+    vertical-align: top;
+}
+.button_wrap {
+    text-align: center;
+    padding-top: 40px;
+}
+.variation_package_details {
+    color: #8a8b99;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+/*shop page details end*/
+/*moodle page start*/
+.dual-plugin-colomns .elementor-container {
+    flex-wrap: wrap;
+    gap: 30px;
+}
+/*moodle page end*/
+div#primary {
+    width: 100%;
+}
+/*single blog page start here*/
+.single-post-inner .entry-media img {
+    object-fit: cover;
+    object-position: center center;
+    height: 100%;
+    width: 100%;
+}
+.single-post .post-cat, .single-post .entry-title{text-align:center; color:#171719 !important;/*change blog haeder*/}
+.single-post .entry-meta, .single-page-header.post-box .sing-page-header-content .entry-meta a, .sl-wrapper .sl-text, .sl-wrapper .sl-count{text-align:center; color:#8a8b99 !important;/*change blog haeder*/}
+.single-post .related-posts .post-cat, .single-post .related-posts .entry-title, .single-post .related-posts .entry-meta{text-align:left;}
+.single-page-header{
+	background-image:  linear-gradient(#fff, #fff) !important;
+    padding: 96px 0 180px;
+    background-size: 100% 100%;
+}
+.comment-respond {	background: #e6f6ff;}
+.single-page-header .sing-page-header-content{padding:0;}
+.single-post .entry-content { margin-top: -202px;}
+.single-page-header .single-bg-overlay {background: transparent;}
+.blog-post > .inner-post {  padding:0 64px;}
+.post-nav a {	color: #1a30ff;}
+/*single blog page end here*/
+/*forum*/
+input#bbp_search_submit,
+.bbp-submit-wrapper .button.submit {
+    background: #ff761a;
+    border: 0;
+    border-radius: 5rem;
+    color: #fff;
+    font-weight: 500;
+    font-size: 2rem;
+    padding: 16px 28px 16px 28px;
+    line-height: 1;
+	transition:0.5s all ease-in-out;
+    box-shadow: 12px 12px 20px 0px hsl(24deg 100% 55% / 30%);
+}
+
+input#bbp_search_submit:hover,
+.bbp-submit-wrapper .button.submit:hover {
+    box-shadow: none;
+}
+
+.markectplace-page .entry-title.page-heading {
+    font-weight: 600;
+    color: #f9f8fb;
+    margin-bottom: 6rem;
+    letter-spacing: -0.05rem;
+}
+
+.bbp-breadcrumb p a,
+.bbp-breadcrumb p span {
+    opacity: 0;
+}
+
+.bbp-breadcrumb p span.bbp-breadcrumb-current {
+    opacity: 0;
+}
+
+.bbp-pagination-count {
+    color: #171719;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.bbp-pagination {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1.6rem;
+    margin-bottom: 2.4rem;
+}
+
+.bbp-reply-content p,
+#bbpress-forums ul.bbp-threaded-replies {
+	font-size: 1.4rem;
+    font-family: 'Red Hat Text';
+    word-break: break-word;
+	line-height:1.6;
+}
+
+a.subscription-toggle {
+    margin-bottom: 1.6rem;
+    display: inline-block;
+}
+#bbpress-forums fieldset.bbp-form select {
+      background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #f3f4ff !important;
+    -webkit-appearance: none;
+    background-position: calc(100% - 1.5rem) center !important;
+    background-size: 1.5% !important;
+}
+
+div#bbp-container li.bbp-header,
+#bbpress-forums li.bbp-header {
+    border: 0;
+    background: transparent;
+    padding: 1.5rem 0;
+    color: #171719;
+    font-size: 1.25rem;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+#bbpress-forums ul,
+#bbpress-forums ul.bbp-forums {
+    border: 0 !important;  /*to crack bbpress default css*/
+    overflow: initial !important; /*to crack bbpress default css*/
+}
+
+.bbp-forums li.bbp-body {
+    font-weight: 500;
+}
+
+span.bbp-author-name {
+    position: relative;
+    margin-right: 0.8rem;
+    font-size: 1.6rem;
+    color: #1aadff;
+    white-space: normal !important; /*to crack bbpress css*/
+    display: inline-block;
+}
+
+.bbp-author-name:hover:before {
+    left: -0.5rem !important;  /* animate purpose in link */
+}
+
+.bbp-topic-freshness-author span.bbp-author-name:before {
+  	transition: 0.3s all ease-in-out;
+    position: absolute;
+    content: ">";
+    left: -0.8rem;
+    top: 53%;
+    transform: translateY(-50%);
+    font-size: 1.8rem;
+}
+
+.bbp-search-form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+form#bbp-search-form {
+    width: 50%;
+}
+
+.bbp-forum-freshness .bbp-topic-meta a {
+    font-size: 0.875rem;
+    color: #5e5d60;
+}
+
+.bbp-forum-freshness a,
+li.bbp-topic-freshness a {
+    color: #8a8b99;
+    font-size:1.25rem;
+}
+
+a.bbp-forum-icon {
+    padding-right: 0.75rem;
+    font-size: 1.25rem;
+}
+
+form#bbp-search-form div {
+    background: #fff;
+    padding: 1rem;
+    margin: 0rem 0 4rem;
+    display: flex;
+    border-radius: 5rem;
+	box-shadow: 12px 12px 30px 0px rgba(162.421818907115, 185.7563092712769, 229.0572967529297, 0.5);
+}
+
+input#bbp_topic_title,
+input#bbp_topic_tags,
+select.bbp_dropdown,
+textarea.bbp-the-content.wp-editor-area,
+.wp-editor-container,
+#bbpress-forums fieldset.bbp-form select,
+.bbp-username input,
+.bbp-password input {
+    width: 100% !important; /* to make input full width */
+    background: #f3f4ff;
+    border-radius: 2.5rem;
+    outline: 0;
+    min-height: 5rem !important; /* to crack bbpresss css*/
+    font-size: 1.6rem !important; /* to crack bbpress */
+    padding: 0.5rem 1rem !important; /* to crack bbpress gap*/
+    color: #171719 !important; /* to crack bbpresss css*/
+}
+
+.wp-editor-container textarea {
+    display: block !important;  /* to crack inline css*/
+}
+
+input#bbp_search {
+    width: 100% !important; /* to crack bbpresss css*/
+    border: 0;
+    font-size: 1.8rem;
+    background: #fff
+}
+
+#bbpress-forums fieldset.bbp-form label {
+    margin: 1.6rem 0 0.5rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #171719;
+}
+
+.bbp-the-content-wrapper {
+    margin: 1.5rem 0 0;
+}
+
+ul.hentry {
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding: 0.75rem 1rem !important;  /*to crack  bbpress css*/
+    font-family: "Red Hat Text", sans-serif;
+}
+
+.topic.bbpress .bbp-topic-tags p {
+    text-align: right;
+    font-size: 0.875rem;
+}
+
+li.bbp-forum-freshness>a,
+li.bbp-topic-freshness>a {
+    text-transform: uppercase;
+}
+
+ul#forums-list-0 li.bbp-forum-freshness {
+    width: 32%;
+}
+
+#bbpress-forums li.bbp-footer,
+.forum.bbpress div.bbp-template-notice.info,
+span.bbp-author-avatar,
+.bbp-forum-info .bbp-forum-content,
+.mce-tinymce.mce-container.mce-panel,
+.single.single-post li.post-comment-link.meta-wrapper {
+    display: none;
+}
+
+.bbp-reply-author span.bbp-author-avatar {
+    display: block;
+    margin-bottom: 0.75rem;
+}
+
+.bbp-reply-author span.bbp-author-avatar img {
+    border-radius: 0.25rem;
+}
+
+div#bbp-container li.bbp-header,
+#bbpress-forums li.bbp-header {
+    border: 0;
+    background: transparent;
+    padding: 0 0 1.5rem 0;
+    color: #171719;
+    font-size: 2rem;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+#bbpress-forums .bbp-pagination-links a:hover,
+#bbpress-forums .bbp-pagination-links span.current,
+#bbpress-forums .bbp-topic-pagination a:hover {
+    background: #3f1473;
+    color: #f9f8fb;
+    border: 0.06rem solid #3f1473 !important; /*pagicnation*/
+    text-decoration: none;
+}
+
+#bbpress-forums .bbp-pagination-links a,
+#bbpress-forums .bbp-pagination-links span.current {
+    padding: 0.5rem 1rem !important; /* to crack the bbpress.min.css*/
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    border: 0.06rem solid #ebe8f1;
+    margin-bottom: 0.5rem;
+}
+
+#bbpress-forums ul.status-closed,
+#bbpress-forums ul.status-closed a {
+    color: #a5a2a9;
+}
+
+li.bbp-forum-info,
+li.bbp-topic-title {
+    width: 48%;
+}
+
+a.forumBackBtn i {
+    font-size: 1rem;
+    width: 1.5rem;
+    display: inline-block;
+    transition: .3s all ease-in-out;
+    text-align: right;
+}
+
+a.forumBackBtn {
+    font-size: 1.25rem;
+}
+
+#bbpress-forums a:hover i {
+    padding-right: 1rem;
+}
+
+#bbpress-forums li.bbp-body ul.topic {
+    position: relative;
+    padding: 0.5rem 1rem;
+    overflow: inherit;
+}
+
+.closed.topic-status,
+.open.topic-status {
+    background: #795b9d;
+    color: #f9f8fb;
+    display: inline-block;
+    padding: 0.25rem 1rem;
+    border-radius: 1rem;
+    font-size: 0.875rem;
+    line-height: 1.2;
+    float: right;
+    clear: both;
+    margin-bottom: 1rem;
+}
+
+.open.topic-status {
+    background: #e35047;
+}
+
+.order_details_of_user {
+    font-size: 1rem;
+    text-align: right;
+    margin: 0 0 1.25rem;
+    float: right;
+    display: block;
+    width: 100%;
+}
+
+.order_details_of_user span {
+    display: block;
+    font-weight: 500;
+    padding: 0 0 0.5rem;
+}
+
+.bbp-topics .type-topic:after {
+    position: absolute;
+    right: 0;
+    color: #f9f8fb;
+    background: #1AADFF;
+    box-shadow: 4px 12px 20px 0px rgba(25.999999999999993, 175, 255, 0.30196078431372547);
+    content: "Resolved";
+    padding: 0.4rem 0 0.4rem 0rem;
+    border-radius: 1.6rem 0 0 1.6rem;
+    font-size: 1.4rem;
+    width: 8.8rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+ul.type-topic.status-publish:after {
+    content: "Open";
+   background: #FF761A;
+    box-shadow: 4px 12px 20px 0px rgba(255, 116.99999999999979, 25.999999999999993, 0.30196078431372547);
+    color: #fff;
+}
+
+#bbpress-forums fieldset.bbp-form {
+    border: 0;
+    padding: 0;
+}
+div.bbp-template-notice, div.indicator-hint, div.bbp-template-notice.info{
+    background-color: #f3f4ff;
+    border: 0;
+    color: #171719;
+    border-top: 0.25rem solid #1aadff;
+    border-radius: 0 0 0.5rem 0.5rem;
+    padding: 1.2rem 1.6rem;
+}
+
+.bbp-topic-form,
+.bbp-reply-form, .bbp-no-topic {
+   	padding: 4.8rem;
+    border-radius: 1.5rem;
+    background: #ffffff;
+    margin-top: 9.5rem;
+    box-shadow: 12px 12px 30px 0px rgba(162.421818907115, 185.7563092712769, 229.0572967529297, 0.5);
+}
+
+#bbpress-forums ul.bbp-topics,
+#forums-list-0 {
+	background: #fff !important;/*to crack bbpress css*/
+    padding: 4.8rem !important;/*to crack bbpress css*/
+    border-radius: 1.5rem;
+    box-shadow: 12px 12px 30px 0px rgb(162 186 229 / 30%);
+}
+ #bbpress-forums ul.odd {
+    background-color: #f3f4ff !important;/*to crack bbpress*/
+}
+#bbpress-forums div.odd, #bbpress-forums ul.odd{
+	background:#fff;
+}
+#bbpress-forums fieldset.bbp-form legend {
+    font-weight: 600;
+    padding: 1.6rem 0 0.8rem;
+    width: 100%;
+    font-size: 2rem;
+    color: #171719;
+    line-height: 1.2;
+}
+
+a.d4p-attachment-addfile {
+    font-size: 16px;
+    color: #3f1473;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 2rem;
+}
+
+#bbpress-forums fieldset.bbp-form input {
+    font-size: 1rem;
+    margin: 0rem 0.5rem 0rem 0;
+}
+
+.bbp-attachments-form input[type="file"] {
+    padding: 0.5rem 0;
+    border-radius: 0.25rem;
+    color: #8e8b91;
+}
+
+.bbp-attachments-form input::file-selector-button {
+    background-color: #522c81;
+    color: #f9f8fb;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    border: 0;
+    margin: 0 1rem 0 0;
+}
+
+#bbpress-forums ul.forum-titles {
+    color: #171719;
+    font-weight: 700;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 2.2rem;
+}
+
+div#bbpress-forums {
+    overflow: inherit;
+    line-height: 1.6;
+}
+
+a.bbp-forum-title, a.bbp-topic-permalink {
+    font-size:1.8rem;
+    color: #171719;
+    padding: 0 1rem;
+}
+a.bbp-forum-title:hover, span.bbp-author-name:hover{
+	 color: #ff761a;
+}
+#bbpress-forums p.bbp-topic-meta span {
+    padding: 0 1rem;
+}
+#bbpress-forums .bbp-attachments-count {
+    background: none;
+    position: relative;
+}
+.topic.bbpress .bbp-reply-header {
+    background-color:#fff !important;  /* bbpress css crack*/
+    border: 0;
+    padding: 2rem;
+    border-radius: 0.8rem 0.8rem 0 0;
+	box-shadow: 12px 12px 30px 0px rgb(162 186 229 / 30%);
+}
+
+.topic.bbpress .bbp-reply-permalink,
+.topic.bbpress span.bbp-admin-links a,
+.topic.bbpress span.bbp-reply-post-date,
+span.bbp-admin-links {
+    color: #8e8b91;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.topic .bbp-private-reply {
+    background: #fff0e6 !important;  /*to set theme color and crack default*/
+}
+
+li.bbp-body div.hentry {
+    margin: -0.06rem 0 0.5rem;
+    padding: 3.2rem;
+    border-radius: 0 0 0.8rem 0.8rem;
+    display: flex;
+    gap: 0 1rem;
+    border-top: 0.06rem solid #ece8f1;
+    flex-wrap: wrap;
+	box-shadow: 12px 12px 30px 0px rgb(162 186 229 / 30%);
+}
+
+ul.bbp-user-order-no li {
+    padding: 0.25rem 0;
+    font-size: 0.875rem;
+}
+
+#bbpress-forums .bbp-attachments ol li.d4p-bbp-attachment .wp-caption img {
+    border-radius: 0.5rem;
+}
+
+#bbpress-forums a[style="color:blue"] {
+    color: #3f1473 !important;  /*to crack inline in bbpress*/
+}
+
+.bbp-user-order {
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    margin-top: 0.75rem;
+}
+
+.topic.bbpress .forums.bbp-replies .bbp-header {
+	box-shadow: 12px 12px 30px 0px rgb(162 186 229 / 30%);
+    background: #fff !important;  /* to set table header background*/
+    margin: 0 0 0.8rem !important;  /* to crack bbpress css*/
+    border-radius: 0.5rem;
+    display: flex;
+    padding: 1.5rem 2rem !important;  /* to crack bbpress css*/
+    gap: 1rem;
+}
+
+#bbpress-forums li.bbp-header .bbp-reply-content {
+    margin: 0;
+    border: 0;
+    padding: 0 1rem;
+}
+
+#bbpress-forums .bbp-attachments ol.with-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+#bbpress-forums .bbp-attachments ol li.d4p-bbp-attachment .wp-caption p.wp-caption-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 0.5rem;
+}
+
+.bbp-attachments {
+    margin-top: 2rem;
+}
+
+#bbpress-forums .bbp-attachments ol li a {
+    white-space: nowrap;
+}
+
+#bbpress-forums .bbp-attachments h6 {
+    margin: 1.75rem 0 1.5rem !important;/* to crack bbpress css*/
+    font-size: 1rem;
+}
+
+.bbp-reply-author .bbp-author-name {
+    padding: 0 0 0.5rem;
+}
+
+.bbp-reply-author .bbp-author-role,
+.bbp-reply-author .bbp-reply-ip {
+	padding: 0 0 0.4rem;
+    font-style: normal !important;/* to crack bbpress css*/
+    text-transform: uppercase;
+    font-size: 1rem !important;/* to crack bbpress css*/
+}
+
+#bbpress-forums div.bbp-reply-content,
+#bbpress-forums div.bbp-reply-author {
+    margin: 0 0;
+    line-height: 1.2;
+    padding: 2rem 0rem;
+    text-align: left;
+}
+
+#bbpress-forums div.bbp-reply-content {
+    border-left: 0.01rem solid #eeefff;
+    padding: 3.2rem 0 3.2rem 3.2rem;
+    width: 85%;
+}
+
+#bbpress-forums div.bbp-reply-author .bbp-author-name {
+    margin: 0;
+}
+
+.bbp-reply-content .pre-wrap,
+.short-code-section .pre-wrap {
+    position: relative;
+}
+
+span.bbp-attachments-count:before {
+    position: absolute;
+    content: "\e921";
+    font-family: 'mvx-website-font';
+    left: 0;
+}
+
+/*forum end*/
+/*betterdocs start*/
+.betterdocs-categories-wrap.layout-flex.docs-col-3 .docs-single-cat-wrap {
+}
+.betterdocs-search-form-wrap .betterdocs-live-search {
+   	max-width: 500px;
+}
+.betterdocs-searchform {
+    box-shadow: 8px 8px 30px 0px rgba(42, 67, 113, 0.15);
+}
+.betterdocs-categories-wrap .docs-single-cat-wrap {
+    box-shadow: 0 10px 17px 0 rgba(40, 47, 98, 0.08);
+}
+.betterdocs-single-wraper .betterdocs-content-area, .betterdocs-single-wraper{
+	background:#fff;
+}
+.category-grid, .docs-category-listing {
+	border-radius:0.8rem;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.docs-single-title .betterdocs-entry-title {
+    background: #fff;
+    padding: 3rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin: 0 0 1rem;
+    border-radius: 0.25rem;
+}
+.betterdocs-entry-content .betterdocs-toc {
+    width: 100%;
+}
+.betterdocs-content {
+    background: #fff;
+    padding: 3.2rem 4.8rem;
+    word-break: break-word;
+    border-radius: 0.25rem;
+}
+.docs-cat-title-inner span{
+	width: 20px;
+    height: 20px;
+}
+.betterdocs-single-wraper .betterdocs-content-area .docs-single-main {
+    position: relative;
+}
+span.betterdocs-print-btn {
+    position: absolute;
+  	top: 2.5rem;
+    right: 5rem;
+}
+.betterdocs-category-wraper.betterdocs-single-wraper .docs-listing-main .docs-category-listing, .betterdocs-content-area .betterdocs-full-sidebar-left.sidebar-layout-4, .docs-single-title .betterdocs-entry-title, .betterdocs-entry-content .betterdocs-toc, .betterdocs-content, .betterdocs-entry-footer, .betterdocs-sidebar-content.betterdocs-category-sidebar, .betterdocs-toc.toc-list-number{
+		box-shadow: 0rem 1rem 2.5rem rgb(63 20 115 / 5%);
+}
+.betterdocs-entry-footer, .betterdocs-article-reactions {
+    background: #fff;
+    padding: 3.2rem;
+    border-radius: 0.4rem;
+    margin: 1.6rem 0 6.4rem;
+}
+.betterdocs-content-heading {
+    margin: 2rem 0 1rem;
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+/*betterdocs start*/
+/*moodle pro page start*/
+table {
+  font-family: "Red Hat Display", sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border: 0;
+}
+
+.table-wrap td, .table-wrap th {
+  border: 0;
+  padding: 0.5rem;
+}
+.table-wrap td{
+    padding: 0.5rem 1.5rem;
+}
+.table-wrap::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+.dual-cmp-heading {
+	border-bottom:0.06rem solid #CFD1E6;
+    padding: 35px 60px 0;
+    border-radius: 15px 15px 0 0;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 9;
+    background: #fff;
+}
+
+.dual-cmp-heading th{
+    font-size: 24px;
+    color: #171719;
+}
+.table-wrap tr td:nth-child(1), .table-wrap tr th:nth-child(1){
+ width: 65%;
+}
+.table-wrap tr td:nth-child(2), .table-wrap tr th:nth-child(2), .table-wrap tr td:nth-child(3), .table-wrap tr th:nth-child(3){
+   text-align: center;
+   font-weight: 700
+}
+.table-wrap tr:nth-child(even) {
+  background-color: #f3f4ff;
+}
+.table-component{
+	padding: 20px 60px;
+	background:#fff;
+}
+.dual-cmp-heading th.pro-heading{
+    color:#ff954d;
+}
+/*moodle pro page end*/
+.post-box .post-cat a{
+	background: #ff761a;
+}
+/*contact form start*/
+.wpforms-field-container input, .wpforms-field-container select, .wpforms-field-container textarea, div.wpforms-container-full .wpforms-form .choices .choices__inner{
+    border-radius: 23px !important;/*wpform css crack*/
+	min-height:4rem;
+	background:#f3f4ff !important;/*wpform css crack*/
+	padding:0.8rem 1.6rem !important;/*wpform css crack*/
+	border:0.06rem solid #cfd1e6 !important;/*wpform css crack*/
+}
+.dcube-submit-btn {
+    color: #fff !important;
+    border-radius: 4.25rem !important;
+    line-height: 1.2;
+    padding: 1.25rem 2.5rem 1.35rem 2.5rem !important;
+    font-weight: 500;
+	background:#ff761a !important;
+	box-shadow: 12px 12px 20px 0px hsl(24deg 100% 55% / 30%) !important;
+	float: right !important;
+}
+.dcube-submit-btn:hover{
+	box-shadow:none !important;
+}
+.wpforms-field.wpforms-field-select-style-classic select{
+    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #f3f4ff !important;
+    -webkit-appearance: none;
+    background-position: calc(100% - 1.5rem) center !important;
+    background-size: 1.5% !important;
+}
+.wpforms-field .wpforms-field-required .depth-1 input[type="checkbox"], .wpforms-field .wpforms-field-required .depth-1 input[type="radio"]{
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 0%;
+    z-index: -1;
+}
+.wpforms-field .wpforms-field-required .depth-1 label{
+	padding: 0.4rem 1.6rem;
+    border: 0.06rem solid #cfd1e6;
+    border-radius: 5rem;
+    display: block;
+    font-size: 1.6rem !important;/*wpform css crack*/
+    font-weight: 500;
+}
+div.wpforms-container-full .wpforms-form .wpforms-list-inline ul li {
+    margin: 0rem 0.4rem !important;
+}
+div.wpforms-container-full .wpforms-form .wpforms-field-label {
+    margin: 0 0 0.8rem 0;
+}
+.wpforms-field .wpforms-field-required .depth-1 input[type="checkbox"]:checked + label, .wpforms-field .wpforms-field-required .depth-1 input[type="radio"]:checked + label{
+	border:0.06rem solid #1aadff;
+	background-color: #1aadff;
+	color:#fff;
+}
+label.wpforms-field-label {
+    color: #171719;
+}
+/*contact form end*/
+/*check out page*/
+.select2-container--default .select2-selection--single .select2-selection__arrow {top: 0px !important;/*theme css*/}
+.coupon-container-grid {
+    grid-template-columns: 3fr 1.5fr !important;/*theme css*/
+    gap: 0.5rem;
+}
+button#place_order { margin-top: 20px;}
+.woocommerce .col2-set, .woocommerce-page .col2-set {border-right: 0.06rem solid #cfd1e6 !important;/*overridden woocoommerce*/}
+#order_review_heading{margin-top:0 !important;/*overridden woocoommerce*/}
+/*checkout end*/
+/* responsive start here */
+@media screen and (max-width: 1200px)  {
+	rs-bullets.tp-bullets {
+    left: 5% !important;/*to set slider*/
+	}
+}
+@media screen and (min-width: 1024px)  {
+	rs-layer-wrap.rs-parallax-wrap:has(img) {
+		left: 53% !important;/*make slider compatiable*/
+	}
+}
+@media screen and (max-width: 1024px)  {
+	.right-tab-wrap{width:60% !important;}
+	.is-mega-menu .sub-menu{
+		min-width:20rem;
+		padding: 0 !important;
+	}
+	.is-mega-menu ul li.menu-item a{   padding: 1.5rem 0rem;}
+	.mega-content-wrap .mega-heading{font-size: 16px;}
+	.mega-content-wrap p{font-size: 14px;}
+	.woocommerce .col2-set, .woocommerce-page .col2-set{border:0!important;/*woocommerce overridden*/}
+}
+
+@media screen and (max-width: 992px) {
+	.elementor-column-gap-default{
+	    flex-wrap: wrap !important;/*make all cloumn responsive*/
+		gap: 20px;
+	}
+   .tab-text-wrap, .tab-img-wrap {  width: 100%; }
+	.tab-img-wrap{text-align:center;}
+	elementor-column { width: 100% !important;/*make all cloumn responsive*/	}
+	.right_side_box {
+    position: initial;
+	margin: 0 0 3rem;}
+	.page-header {
+    background-size: 147% 112%;
+	}
+	.features-item .elementor-widget-wrap.elementor-element-populated{
+		margin:0px 0 !important;
+	}
+	.features-3rd-part{
+		margin:20px 0 0;
+	}
+	.service-part .icon-box .content-box{
+		text-align:center;
+		padding:0;
+	}
+	.service-part .icon-box .icon-main {
+    float: none;
+    margin: 0 auto 24px;
+	}
+	/*bbpress pages*/
+#bbpress-forums li.bbp-body ul.topic{ padding-top: 4.8rem !important;/*to make it responsive*/}
+.bbp-topics .type-topic:after{ 
+	top: 15%;
+    right: 0.75rem;
+    border-radius: 5rem;
+    padding: 2px;
+    font-size: 1rem;
+    width: 6rem;
+    text-align: center;
+	}
+.post-type-archive-forum .bbp-forum-info, li.bbp-topic-title {width: 38% !important;/*to make forum responsive*/}
+li.bbp-forum-reply-count, li.bbp-forum-topic-count, li.bbp-topic-reply-count, li.bbp-topic-voice-count {width: 20%;}
+ul#forums-list-0 li.bbp-forum-freshness,li.bbp-forum-freshness, li.bbp-topic-freshness {width: 22% !important;/*to crack bbpress.min.css */}
+#bbpress-forums ul.bbp-topics, #forums-list-0 {padding: 0 !important;/*to make forum responsive*/}
+div#bbp-container li.bbp-header, #bbpress-forums li.bbp-header {padding: 1.5rem 1rem;}
+.topic.bbpress .bbp-header, .bbp-admin-links { display: none !important;}
+#bbpress-forums .bbp-body div.bbp-reply-author {
+		padding: 0 0 3rem 29% !important;/*to make resposive and crack bbpress.min.css*/ 
+		position:relative; 
+		width:100%; 
+		border-bottom: 0.06rem solid #ece8f1;
+	}
+#bbpress-forums div.bbp-reply-author img.avatar {
+	position:absolute; 
+	left:6%; 
+	top: -16% !important;/*to make resposive and crack bbpress.min.css*/
+	}
+#bbpress-forums div.bbp-reply-content{border:0}
+li.bbp-body div.hentry {padding: 1rem;}
+.woocommerce-MyAccount-navigation, .support-profile, .customer-support-img, .woocommerce-MyAccount-content{
+	width:100% !important;/* to make responsive*/ 
+	clear:both;
+	}
+.woocommerce table.my_account_orders .button.invoice, a.woocommerce-button.button.view, a.woocommerce-button.button.pay, a.woocommerce-button.button.cancel {
+	padding: 0.453rem 0rem 0.453rem 0rem; 
+	width: auto;
+	border:0;
+	}
+.woocommerce table.shop_table_responsive tr:nth-child(2n) td, .woocommerce-page table.shop_table_responsive tr:nth-child(2n) td{background:none;}
+.woocommerce-account .woocommerce-MyAccount-content{
+	box-shadow:none;
+	padding:2rem 0 0 0;
+	border-top:0.06rem solid #ece8f1;
+	}
+.woocommerce table.shop_table, .woocommerce table.shop_table td, .woocommerce table.shop_table th, .woocommerce table.shop_table tfoot th, .woocommerce table.shop_table tfoot td{ padding:0.338rem 0.875rem;}/*bbpress pages end*/
+	.wpforms-field-container ul.wpforms-field-required {
+    gap: 0.8rem 0;
+    display: flex;
+    flex-wrap: wrap;
+	}
+	.variation_box.ot-pricing-table {
+   	width: 43%;
+    margin: 32px 15px;
+	}
+	.sl-wrapper {
+    display: block;
+    float: none;
+	}
+}
+@media screen and (max-width: 768px) {
+	a.bbp-forum-icon, p.bbp-topic-meta { display: none;}
+	.table-wrap tr td:nth-child(1), .table-wrap tr th:nth-child(1) {  width: 48%;}
+}
+@media screen and (max-width: 575px) {
+	.page-header { background-size: 274% 109%;	}
+	.ot-tabs .tabs-heading {
+		display: block;
+		border: 0;
+	}
+	.is-mega-menu .sub-menu { padding: 0rem !important;/* theme overridden*/	}
+	.ot-tabs .tabs-heading li {   width: 100%;	}
+	form#bbp-search-form {   width: 100%;	}
+	div#bbp-container li.bbp-header, #bbpress-forums ul.forum-titles {     font-size: calc(100% - 0.47rem);}
+	#bbpress-forums .bbp-body li, .bbp-forum-freshness a, li.bbp-topic-freshness a, a.bbp-forum-title, a.bbp-topic-permalink {     font-size: 12px;    text-transform: capitalize;}
+	#bbpress-forums div.bbp-reply-author img.avatar {top: 4% !important;	}
+	.bbp-topic-form, .bbp-reply-form, .bbp-no-topic {padding: 2.8rem;}
+	.variation_box.ot-pricing-table {
+   	width: 100%;
+	margin:32px auto;
+	}
+	.dual-cmp-heading, .table-component{	padding: 20px 16px;	}
+	.table-component:has(td):has(.ot-button) {
+    background: transparent;
+    margin-left: -49px;
+    padding-top: 32px;
+	}
+	.blog-post > .inner-post {padding: 0 20px;}
+}
+@media (max-width: 992px) and (min-width: 550px){
+	.testimonial-image{width:25% !important;}
+}
